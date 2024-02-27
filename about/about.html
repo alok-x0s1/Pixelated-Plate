@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pixelated Plate | About</title>
+    <link rel="shortcut icon" href="../Images/icon.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="background-color: #212529">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary px-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Pixelated Plate</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pricing/pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Category
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../pages/web.html">Web development</a></li>
+                <li>
+                  <a class="dropdown-item" href="../pages/ai.html">Artificial intelligence</a>
+                </li>
+                <li><a class="dropdown-item" href="../pages/ml.html">Machine learning</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="../pages/web3.html">Web3</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact/contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <div class="mx-2">
+            <button
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#loginModal"
+            >
+              Login
+            </button>
+            <button
+              class="btn btn-danger"
+              data-bs-toggle="modal"
+              data-bs-target="#signupModal"
+            >
+              Signup
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="modal fade text-white"
+      data-bs-theme="dark"
+      id="loginModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Login to Pixelated Plate</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body p-5 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control rounded-3"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control rounded-3"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button
+                  class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                  type="submit"
+                >
+                  Sign up
+                </button>
+                <small class="text-body-secondary"
+                  >By clicking Sign up, you agree to the terms of use.</small
+                >
+                <hr class="my-4" />
+                <h2 class="fs-5 fw-bold mb-3">Or continue with</h2>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/twitter-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  Twitter
+                </button>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/facebook-round-color-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  facebook
+                </button>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/github-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  Github
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade text-white"
+      data-bs-theme="dark"
+      id="signupModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-header p-3 pb-4 border-bottom-0">
+              <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <div class="modal-body p-4 pt-0">
+              <form class="">
+                <div class="form-floating mb-3">
+                  <input
+                    type="text"
+                    class="form-control rounded-3"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Name</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    class="form-control rounded-3"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    class="form-control rounded-3"
+                    id="floatingPassword"
+                    placeholder="Password"
+                  />
+                  <label for="floatingPassword">Password</label>
+                </div>
+                <button
+                  class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                  type="submit"
+                >
+                  Sign up
+                </button>
+                <small class="text-body-secondary"
+                  >By clicking Sign up, you agree to the terms of use.</small
+                >
+                <hr class="my-4" />
+                <h2 class="fs-5 fw-bold mb-3">Or continue with</h2>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/twitter-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  Twitter
+                </button>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/facebook-round-color-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  facebook
+                </button>
+                <button
+                  class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                  type="submit"
+                >
+                  <img
+                    src="../svg/github-icon.svg"
+                    alt=""
+                    class="bi me-1"
+                    width="16"
+                    height="16"
+                  />
+                  Github
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center"
+      data-bs-theme="dark"
+    >
+      <div class="col-md-6 p-lg-5 mx-auto my-5">
+        <h1 class="fw-bold text-white">About Pixelated Plate</h1>
+        <h3 class="fw-normal text-muted mb-3">
+          Explore about anything which are currently happening in the field of
+          technology
+        </h3>
+        <div class="d-flex gap-3 justify-content-center lead fw-normal">
+          <a class="icon-link" href="#">
+            Learn more
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+          <a class="icon-link" href="#">
+            Buy
+            <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </div>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div
+        class="product-device product-device-2 shadow-sm d-none d-md-block"
+      ></div>
+    </div>
+
+    <h1 class="text-white m-4">Here are our some blogs</h1>
+
+    <div class="album py-5" data-bs-theme="dark">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/1.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Hypertext Markup Language (HTML) is the standard markup
+                  language for creating web pages and web applications, defining
+                  the structure and content of the page using tags and elements.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/2.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Cascading Style Sheets (CSS) is used to style HTML elements,
+                  controlling the layout, colors, fonts, and overall appearance
+                  of a webpage, enhancing its visual presentation.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/3.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  JavaScript is a versatile programming language primarily used
+                  for adding interactivity and dynamic behavior to web pages,
+                  enabling actions like form validation, animations, and DOM
+                  manipulation.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/4.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  React is a JavaScript library for building user interfaces,
+                  allowing developers to create reusable UI components and
+                  efficiently update the UI in response to data changes,
+                  enhancing the performance of web applications.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/5.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Node.js is a JavaScript runtime built on Chrome's V8
+                  JavaScript engine, enabling developers to run JavaScript code
+                  on the server-side, facilitating the development of scalable
+                  and efficient web applications.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/6.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  MongoDB is a NoSQL database system, using a document-oriented
+                  model to store data in flexible, JSON-like documents,
+                  providing scalability and high performance for managing large
+                  volumes of data in web applications.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/3.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Express is a minimal and flexible Node.js web application
+                  framework, providing a robust set of features for building web
+                  and mobile applications, including routing, middleware
+                  support, and HTTP utility methods, simplifying server-side
+                  development.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/1.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  MySQL is a popular open-source relational database management
+                  system (RDBMS) known for its reliability, scalability, and
+                  performance, widely used in web development to store
+                  structured data and handle complex queries.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="../Images/2.jpg" alt="" />
+              <div class="card-body">
+                <p class="card-text">
+                  Mongoose is an elegant MongoDB object modeling tool for
+                  Node.js, providing a straightforward schema-based solution for
+                  interacting with MongoDB databases, simplifying data
+                  validation, querying, and handling relationships in Node.js
+                  applications.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                    >
+                      View
+                    </button>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid bg-dark text-white border-top"
+      data-bs-theme="dark"
+    >
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary"
+                  >Features</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">Pricing</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-body-secondary">About</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-5 offset-md-1 mb-3">
+            <form>
+              <h5>Subscribe to our newsletter</h5>
+              <p>Monthly digest of what's new and exciting from us.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden"
+                  >Email address</label
+                >
+                <input
+                  id="newsletter1"
+                  type="text"
+                  class="form-control"
+                  placeholder="Email address"
+                />
+                <button class="btn btn-primary" type="button">Subscribe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top"
+        >
+          <p>© 2024 Pixelated Plate, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use></svg
+              ></a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"
+                ><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
